@@ -1,0 +1,45 @@
+<RTAN.xml>
+	<!-- configuration file for the real time achievement notification (RTAN) mod 
+		default values are noted after | -->
+	<PlaySound>True</PlaySound> <!-- play a sound when a notification is displayed -->
+	<Speeds> 
+		<Move>4</Move> <!-- speed when the notification moves in from the right, in px/0.01s | 4-->
+		<Fade>3</Fade> <!-- speed when the notification fades, in 1/0.01s | 3-->
+	</Speeds>
+	<UpTime>3</UpTime> <!-- how long the notification will be visible after moving in before it starts to fade, in s | 3-->
+	<NotificationDelay>0.5</NotificationDelay> <!-- delay after the previous notification has faded before the next one starts to move in | 0.5-->
+	<VerticalPosition>450</VerticalPosition> <!-- vertical position of the top of the notification, 450 is almost directly under the player panels | 450 -->
+	<Sizes>
+		<Background_Image>52 52</Background_Image> <!-- size of the background image for the image part of the notification; height width | 52 52 -->
+		<Image>48 48</Image> <!-- size of the achievement image of the notification; height width | 48 48 -->
+		<Background_Text>52 500</Background_Text> <!-- size of the background image for the text part of the notification; height width | 52 500 -->
+		<Text>24 0</Text> <!-- size of the text with the achievement name, a width of 0 causes the width to be calculated based on the length of the text while maintaining the aspect ratio of the font; height width | 24 0 -->
+	</Sizes>
+	<Margins>
+		<Image>2 2</Image> <!-- margin of the achievement image; left right | 2 2 -->
+		<Text>6 16</Text> <!-- margin of the achievement name text; left right | 6 16 -->
+	</Margins>
+	<Achievements> <!-- for which achievements a notification should be shown -->
+		<Fighter>True</Fighter>
+		<TopGun>True</TopGun>
+		<RadleyWalters>True</RadleyWalters>
+		<Pools>True</Pools>
+		<Raseiniai>True</Raseiniai>
+		<Orlik>True</Orlik>
+		<Lehvaslaiho>True</Lehvaslaiho>
+		<Oskin>True</Oskin>
+		<Nichols>True</Nichols>
+		<Halonen>True</Halonen>
+		<Pascucci>True</Pascucci>
+		<Dumitru>True</Dumitru>
+		<Burda>True</Burda>
+		<Naidin>True</Naidin>
+		<HighCaliber>True</HighCaliber>
+		<FireForEffect>True</FireForEffect>
+		<DemolitionExpert>True</DemolitionExpert>
+		<Kamikaze>True</Kamikaze>
+		<Arsonist>True</Arsonist>
+	</Achievements>
+</RTAN.xml>
+
+
